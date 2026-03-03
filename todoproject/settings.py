@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$adx^an^nmtyjjzzr7&y_s!^5t2q!$kt*n701z6rkl&q8op=(0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://todo-app-pf7t.onrender.com/']
 
 
 # Application definition
@@ -125,3 +125,4 @@ STATICFILES_DIR=[
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
